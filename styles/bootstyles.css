@@ -1,0 +1,83 @@
+body {
+    background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../images/mainbg.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar {
+    margin: auto;
+    border: 1px solid #eab46f;
+    background-color:#eab46f;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.navbar-items {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    margin: auto;
+  }
+.nav-item{
+    flex: 1 1 auto;
+    text-align: center;
+    display: block;
+}
+
+.container {
+    flex: auto;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.head {
+    text-align: center;
+    color: white;
+}
+
+.foot {
+    border: 1px solid #eab46f;
+    border-radius: 5px;
+    background-color:#eab46f;
+    min-height: 50px;
+    width: 100%;
+    flex: 2;
+}
+
+.footer-text {
+    text-align: center;
+}
+
+.tab-container {
+    border: 1px solid rgb(205, 205, 205);
+    background-color:rgb(205, 205, 205);
+    border-radius: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 80%;
+    height: 66.67%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tableau {
+    max-width: 100%;
+    flex: auto;
+}
+
+.right-float {
+    float: right;
+}
+
+.description {
+    text-align: center;
+    flex: auto;
+    font-weight: bolder;
+    padding: 5px;
+}
